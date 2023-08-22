@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Viagem dos sonhos</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+    <section>
+        <h2>Conheça nossos pacotes</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, necessitatibus! Hic similique unde ipsam,
+            debitis nisi doloribus tenetur est blanditiis minus officia quibusdam quos corporis suscipit nam eaque ullam
+            quia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius corrupti veniam debitis hic provident
+            id temporibus perferendis molestias. Mollitia veniam atque cumque aspernatur sapiente obcaecati earum,
+            fugiat corporis at iste. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia iusto obcaecati
+            hic excepturi ab eveniet minima pariatur? Sapiente blanditiis iure, explicabo modi fuga culpa, ducimus
+            quidem aliquid accusantium quo possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            maiores soluta velit. Omnis, aspernatur hic debitis rem doloribus voluptate harum, maiores quaerat
+            dignissimos nostrum eum temporibus fugiat quasi facere dolor!Lorem <br><a
+                href="https://www.lipsum.com/">Link</a>
+            <hr>
+        <figure>
+            <img src="#" alt="Chalé em gramado">
+            <figcaption>Gramado</figcaption>
+        </figure>
+        <figure>
+            <img src="#" alt="Praia em Porto Seguro">
+            <figcaption>Porto Seguro</figcaption>
+        </figure>
+        <figure>
+            <img src="#" alt="Rio de Janeiro sendo visto de cima">
+            <figcaption>Rio de Janeiro</figcaption>
+        </figure>
+        </p>
+    </section>
+    <video controls width="500px">
+        <source src="video/castlevania.mp4" type="video/mp4">
+        <source src="video/castlevania.webm" type="video/webm">
+        Seu navegador não suporta o formato do vídeo. <a href="video/castlevania.mp4">Clique aqui para baixar</a>
+    </video>
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Veja nossas taxas para serviço</p>
+        <table border>
+            <caption>Descrição do serviço e respectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Serviço
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Reserva de Hotel
+                    </td>
+                    <td>
+                        R$150,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>Compra de Passagens</td>
+                    <td>
+                        R$100,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Aluguel de carros
+                    </td>
+                    <td>
+                        R$50,00
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Serviço</td>
+                    <td>Valor</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section>
+        <h2>Orçamento</h2>
+        <form method="GET" action="reserva.html" target="_blank">
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label for="">Nome</label><br>
+                <input type="text" required name="Nome"><br>
+                <label for="">Email</label><br>
+                <input type="email" required name="E-mail"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label for=""><input type="checkbox" name="passagens" value="Passagens">Compra de passagens</label>
+                <label for=""><br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de
+                    hospedagem</label>
+                <label for=""><br><input type="checkbox" name="veiculos" value="Veiculos">Aluguel de veiculos</label>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label for="">
+                    <input type="radio" name="formaPagamento" value="Cartao de Crédito"> Cartao de Crédito
+                </label>
+                <label for="">
+                    <br><input type="radio" name="formaPagamento" value="Boleto"> Boleto
+                </label>
+                <label for="">
+                    <br><input type="radio" name="formaPagamento" value="PIX"> PIX
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Prazo de pagamento</legend>
+                <select name="prazoPagamento" id="">
+                    <option value="aVista" selected>À vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x">10x com juros</option>
+                </select>
+            </fieldset>
+            <br><button>Salvar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Dilson Albuquerque</p>
+    </footer>
+
+</body>
+
+</html>
