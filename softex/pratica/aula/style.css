@@ -25,7 +25,7 @@ div{
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    border-radius: 10px;
+    border-radius: 1em;
     margin: 30px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.324);
 }
