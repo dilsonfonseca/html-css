@@ -1,0 +1,141 @@
+html { background-color:#F6F6F6 }
+
+:root{
+    --main-color: #AD6437;
+    --hover-color:#FFC29C;
+    --letter-color: #FAAE7F;
+    --stroke-color:#7FF7FA; 
+    --text-font-family:Arial, Helvetica, sans-serif;
+}
+
+main { 
+    min-width:70vw; 
+    max-width: 85vw; 
+    margin:-1px auto 10px; 
+    border:1px solid #ddd; 
+    background-color:#FFF; 
+    font-family:var(--text-font-family); background-color: white;
+}
+
+header { 
+    width:inherit; 
+    height:inherit 
+}
+
+nav { 
+    width: inherit; 
+    background-color: 
+    var(--main-color) 
+}
+nav ul { 
+    list-style:none; 
+    margin:10px; 
+    padding:10px; 
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+nav ul li a { 
+    font-size: 0.85em; 
+    text-decoration: none; 
+    color: #FFF; 
+    padding: 4px 20px 
+}
+nav ul li a:hover { 
+    background-color: var(--hover-color)
+ }
+
+article { 
+    float:left; 
+    margin:30px 20px; 
+    width:60%;
+    min-width: 40vw;
+    text-align: justify; 
+}
+
+article header hgroup h1 {
+    margin:10;
+}
+
+article header hgroup h5 {
+    margin:5px; font-size: 1.1em; color:#ccc;
+    font-weight: 100;
+}
+
+aside {
+    float:left;
+    width:40%;
+    border-top:1px solid var(--letter-color);
+    border-bottom:1px solid var(--letter-color);
+    padding:40px 10px 0;
+    font-style: italic;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+aside p {
+    color:#999;   
+}
+
+.title{
+    text-align: center;
+}
+
+#apoio { 
+    float:right; 
+    width:280px; 
+    margin-top:30px; 
+    margin-right: 30px;
+}		
+footer { 
+    clear:both; 
+    width:inherit; 
+    margin:0 auto; 
+    font-size:0.75em; 
+    text-align:center; 
+    background-color:var(--main-color); 
+}
+
+h1, h2, h4 { 
+    font-family:var(--text-font-family); 
+    color:var(--letter-color); 
+    font-style:italic; 
+    letter-spacing:-0.05em 
+}
+h1 { 
+    font-size:2.6em; 
+    margin:0 5px; 
+}
+h4 { 
+    font-size:1.6em; 
+    margin:0 5px; 
+}
+ul { 
+    list-style:none; 
+}
+p, li { 
+    font-family:var(--text-font-family); 
+    font-size:0.9em; 
+    color:#555; 
+    line-height:1.8; 
+}
+
+@media (max-width:1050px) {
+
+    nav ul { 
+        flex-direction: column; 
+        align-items: center;}
+    article{
+        width: 90%; 
+        align-items:  center;}
+    aside{ 
+        width: 90%;}
+    #apoio{ 
+        float: left; 
+        width: 90%; 
+        margin-left: 20%; 
+        margin-bottom: 30px;
+    }
+}
