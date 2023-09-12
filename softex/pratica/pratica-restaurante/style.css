@@ -36,7 +36,11 @@ fieldset{
 }
 
 input{
-    display: inline;
+
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid black;
+    
 
 }
 
