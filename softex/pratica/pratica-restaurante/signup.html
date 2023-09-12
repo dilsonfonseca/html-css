@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/alcool.png" type="image/x-icon">
     <meta name="Casa Bacurau">
@@ -12,7 +12,51 @@
     <meta keywords="Casa, Bacurau, bar, centro, Recife, restaurante">
     <meta http-equiv="casabacurau.com.br">
 </head>
-<body>
+<div>
+    <body>
+        <h1>Casa Bacurau</h1>
+        <Fieldset>
+        <legend> Informações do Usuário   </legend>
+        <label for="name">Nome:</label>
+        <input type="text" max="40">
+        <label for="">Sexo: </label>
+        <select name="sexo" id="gen"><option value="masc">Masculino</option>
+        <option value="fem">Feminino</option></select>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="usuario">
+        <label for="dataNasc">Data de nascimento:</label>
+        <input type="date" name="data" id="dataNasc">
+        <label for="password">Senha:</label>
+        <input type="password" name="" id="">
+        <label for="password">Repita a senha:</label>
+        <input type="password" name="" id="">
+    </Fieldset>
     
+    <fieldset>
+        <legend>Endereço</legend>
+        <label for="end">Endereço</label>
+        <input type="text" name="" id="">
+        <label for="">Complemento</label>
+        <input type="text">
+        <label for="">CEP</label>
+        <input type="number">
+        <label for="">Estado</label>
+        <input type="text">
+        <label for="">Cidade</label>
+        <input type="text">
+    </fieldset>
+    <fieldset>
+        <legend>Pagamento</legend>
+        <label for="">Número do cartão</label>
+        <input type="number" max="16">
+        <label for="">Validade</label>
+        <input type="date">
+        <label for="" max="3">Código</label>
+        <input type="text">
+        <label for="">Nome do Titular</label>
+        <input type="text">
+    </fieldset>
+    <button>Cadastrar</button>
+</div>
 </body>
 </html>
