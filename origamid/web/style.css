@@ -19,6 +19,7 @@
     place-self: start;
     display: grid;
     place-items: start;
+    gap: 20px;
 }
 
 
