@@ -2,8 +2,24 @@
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto) 1fr;
+    place-items: start;
 }
 
+.titulo{
+    grid-column: 1/-1;
+}
+
+.foto{
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+.info{
+    place-self: start;
+    display: grid;
+    place-items: start;
+}
 
 
 /* Estilos Gerais*/
