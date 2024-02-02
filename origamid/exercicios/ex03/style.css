@@ -70,16 +70,20 @@ p{
     padding: 40px;
     text-align: right;
     position: relative;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: end;
 }
 
 .detalhe{
-    display: inline-block;
     position: absolute;
     top: 30px;
     right: -30px ;
     width: 60px;
     height: 4px;
     background: red;
+   
 }
 
 .botao{
@@ -88,5 +92,29 @@ p{
     padding: 15px 30px;
     border-radius: 4px;
     text-transform: uppercase;
-    display: inline-block;
+}
+
+.subtitulo{
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.199);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+
+.vantagens{
+    background: white;
+    padding: 40px;
+}
+
+.vantagens-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.vantagens-item p{
+    grid-column: 2;
 }
