@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikcraft</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img src="img/bikcraft.svg" alt="Logo da Marca">
-    <div class="menu">
-        <a href="#">Sobre</a>
-        <a href="#">Produtos</a>
-        <a href="#">Lojas</a>
-        <a href="#">Contato</a>
-    </div>
-<!--Conteúdo-->
-    <div class="conteudo">
-        <div class="introducao">
-            <span class="detalhe"></span>
-            <h1>Bicicletas Feitas a Mão</h1>
-            <p>A Nibus Stak é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-            <a href="#" class="botao">Ver mais</a>
-        </div>
-
-        <img src="img/bicicleta.jpg" alt="Foto da Bikcraft">
-
-        <h2 class="subtitulo">Vantagens Bikcraft</h2>
-        <div class="vantagens">
-            <div class="vantagens-item">
-                <img src="img/eletrica.svg" alt="">
-                <h3>Motor Elétrico</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore obcaecati sunt quod corporis cumque eius nam voluptates reiciendis fugit.</p>
+    <header class="header">
+        <img src="img/bikcraft.svg" alt="Logo da Marca">
+        <nav aria-label="primária">
+            <ul class="menu">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Lojas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Conteúdo-->
+    <main>
+        <article class="conteudo">
+            <div class="introducao" aria-labelledby="label-introducao">
+                <span class="detalhe"></span>
+                <h1 id="label-introducao">Bicicletas Feitas a Mão</h1>
+                <p>A Nibus Stak é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores
+                    acessórios
+                    da marca.</p>
+                <a href="#" class="botao">Ver mais</a>
             </div>
-                <div class="vantagens-item">
+            <img src="img/bicicleta.jpg" alt="Foto da Bikcraft">
+        </article>
+
+        <article class="conteudo" aria-labelledby="label-vantagens">
+            <h2 class="subtitulo" id="label-vantagens">Vantagens Bikcraft</h2>
+            <ul class="vantagens">
+                <li class="vantagens-item">
+                    <img src="img/eletrica.svg" alt="">
+                    <h3>Motor Elétrico</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore obcaecati sunt
+                        quod
+                        corporis cumque eius nam voluptates reiciendis fugit.</p>
+                </li>
+                <li class="vantagens-item">
                     <img src="img/velocidade.svg" alt="">
                     <h3>40km/hr</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore obcaecati sunt quod corporis cumque eius nam voluptates reiciendis fugit.</p>
-                </div>
-                <div class="vantagens-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore obcaecati sunt
+                        quod
+                        corporis cumque eius nam voluptates reiciendis fugit.</p>
+                </li>
+                <li class="vantagens-item">
                     <img src="img/rastreador.svg" alt="">
                     <h3>Rastreador</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore obcaecati sunt quod corporis cumque eius nam voluptates reiciendis fugit.</p>
-                </div>
-        </div>
-    </div>
-    <div class="rodape">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore obcaecati sunt
+                        quod
+                        corporis cumque eius nam voluptates reiciendis fugit.</p>
+                </li>
+            </ul>
+        </article>
+    </main>
+    <footer class="rodape">
         <p>Bikcraft: alguns direitos reservados.</p>
-    </div>
+    </footer>
 
 </body>
+
 </html>
