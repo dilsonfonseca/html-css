@@ -61,7 +61,7 @@ p{
 }
 
 .menu a:hover{
-    background-color: #f1f1f1;
+    border:2px solid rgb(117, 3, 3);
 }
 
 .conteudo{
@@ -136,3 +136,4 @@ p{
      padding: 40px;
      box-sizing: border-box;
 }
+
