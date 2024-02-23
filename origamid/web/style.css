@@ -1,30 +1,27 @@
+:root {
+  --fundo: #fff;
+  --texto-1: #111;
+  --texto-2: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #222;
+    --texto-1: #eee;
+    --texto-2: #bbb;
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
+  background: var(--fundo);
 }
 
-label {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 10px;
+h1 {
+  color: var(--texto-1);
 }
 
-input {
-  font-size: 1.2rem;
-  padding: 10px;
-}
-
-textarea {
-  font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-button{
-  font-size: 2rem;
-  padding: 10px 20px;
-  background: #caf;
-  border: none;
-  color: #217;
-  border-radius: 4px;
-  cursor: pointer;
+p {
+  color: var(--texto-2);
 }
