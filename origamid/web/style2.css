@@ -1,24 +1,28 @@
-h1{
+[required] {
+  border: 2px solid tomato;
+}
+
+a[href="#contato"] {
+  border: 2px solid green;
+}
+
+section > h2 {
+  color: tomato;
+}
+
+p{
   margin: 0px;
+}
+
+article {
+  background: lightgreen;
   padding: 10px;
-  background: lightblue;
 }
 
-.index1{
-  position: relative;
-  background-color: green;
-  top: 30px;
-  z-index: -1;
+p + p{
+  margin-top: 20px;
 }
 
-.index2{
-  position: absolute;
-  background-color: rgb(206, 171, 55);
-  top: 60px;
-  z-index: 1;
-}
-
-.index3{
-  position: relative;
-  z-index: -2;
+*{
+  border: 2px solid red;
 }

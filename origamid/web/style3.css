@@ -1,0 +1,29 @@
+body {
+  font-size: 2rem;
+}
+
+.titulo {
+  color: tomato;
+  padding: 10px;
+}
+
+#produtos {
+  color: lightgreen;
+}
+
+#intro #servicos {
+  color: aqua;
+}
+
+#servicos {
+  color: red;
+}
+
+.titulo.teste {
+  color: blue;
+}
+
+.titulo {
+  color: tomato;
+  padding: 10px;
+}
